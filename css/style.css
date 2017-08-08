@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .header-container-wrapper{
 background-color: #33BEBE;
 }
@@ -28,34 +27,3 @@ p
     display: -webkit-flex;
     display: flex;
 }
-=======
-.header-container-wrapper{
-background-color: #33BEBE;
-}
-.sansserif {
-  font-family: sans-serif;
-}
-element-style
-{display: flex;
-background-color: #5cc0ce
-}
-/*{outline: 1px solid red}*/
-*{
-    -webkit-box-sizing: border-box;
-    moz-box-sizing:border-box;
-    -ms-box-sizing:border-box;
-    box-sizing: border-box;
-}
-p
-{}
-.image
-{max-width: 460px}
-/*.description{
-    color: red;
-}*/
-
-.app {
-    display: -webkit-flex;
-    display: flex;
-}
->>>>>>> b9f6a584c6e5a4127626dc5e6af0790e842c6f52
