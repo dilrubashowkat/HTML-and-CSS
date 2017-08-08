@@ -5,7 +5,8 @@ background-color: #33BEBE;
   font-family: sans-serif;
 }
 element-style
-{display: flex;
+{
+    display: flex;
 background-color: #5cc0ce
 }
 /*{outline: 1px solid red}*/
@@ -15,8 +16,7 @@ background-color: #5cc0ce
     -ms-box-sizing:border-box;
     box-sizing: border-box;
 }
-p
-{}
+
 .image
 {max-width: 460px}
 /*.description{
@@ -30,6 +30,11 @@ p
 .container{
     width: 100%;
 }
-.progressbar{
 
+.prog li
+{
+    list-style-type: none;
+    float: left;
+    width: 33.33%;
+    position: relative;
 }
