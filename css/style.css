@@ -38,3 +38,11 @@ background-color: #5cc0ce
     width: 33.33%;
     position: relative;
 }
+.div d
+{
+margin-bottom:10px;
+min-height: 300px;
+background-color: lightpink;
+text-align: center;
+font-size: medium;
+}
