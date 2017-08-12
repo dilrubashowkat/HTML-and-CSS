@@ -46,8 +46,9 @@ background-color: lightpink;
 text-align: center;
 font-size: medium;
 }
-body
+.imagec
 {
-    background-color: lime;
-
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
 }
