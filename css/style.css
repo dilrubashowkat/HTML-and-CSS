@@ -53,7 +53,7 @@ font-size: medium;
     margin-right: auto;
     background-color: silver;
 }
-body
+    body
 {
     font-size: 20px;
     background-color: lime;
@@ -82,7 +82,7 @@ color: lime;
 font-family: helvetica;
 background-image: url(image/bokeh6.jpg);
 }
-.test{
+#test{
 font-size: 200%;
 color: pink;
 font-family: Verdana, Arial;
