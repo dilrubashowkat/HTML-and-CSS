@@ -10,7 +10,7 @@ element-style
 background-color: #5cc0ce
 }
 /*{outline: 1px solid red}*/
-*{
+ *{
     -webkit-box-sizing: border-box;
     moz-box-sizing:border-box;
     -ms-box-sizing:border-box;
@@ -23,7 +23,7 @@ background-color: #5cc0ce
     color: red;
 }*/
 
-.app {
+ .app {
     display: -webkit-flex;
     display: flex;
 }
