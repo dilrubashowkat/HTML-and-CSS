@@ -104,3 +104,16 @@ background-image: url(image/bokeh4.jpg);
     text-decoration: underline;
     text-shadow: 1px;
 }
+
+a:link
+{
+    color: blue;
+}
+a:visited
+{
+    color: magenta;
+}
+a:hover
+{
+color: aqua;
+}
