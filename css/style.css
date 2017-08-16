@@ -60,7 +60,19 @@ font-size: medium;
     margin-right: auto;
     background-color: silver;
 }
+.centered-container {
+    display: table;
+    position: absolute;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
 
+.centered-elements{
+   display: table-cell;
+   vertical-align: middle;
+   text-align: center;
+}
 h1,h4 {
 background-color: lightyellow;
 color: blue;
