@@ -1,3 +1,10 @@
+body
+{
+    font-size: 20px;
+    /*background-color: lime;*/
+    background-image: url(image/bokeh2.jpg);
+
+}
 .header-container-wrapper{
 background-color: #33BEBE;
 }
@@ -53,13 +60,7 @@ font-size: medium;
     margin-right: auto;
     background-color: silver;
 }
-    body
-{
-    font-size: 20px;
-    background-color: lime;
-    background-image: url(image/bokeh2.jpg);
 
-}
 h1,h4 {
 background-color: lightyellow;
 color: blue;
