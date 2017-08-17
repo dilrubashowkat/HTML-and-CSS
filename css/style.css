@@ -60,6 +60,12 @@ font-size: medium;
     margin-right: auto;
     background-color: silver;
 }
+.imageS{
+    padding: 10px;
+    border: solid 4px blue;
+    margin-left: 25px;
+    background-color: lightgreen;
+}
 .centered-container {
     display: table;
     position: absolute;
