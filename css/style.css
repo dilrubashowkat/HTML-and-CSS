@@ -162,4 +162,5 @@ a:visited
 a:hover
 {
 color: aqua;
+cursor: help;
 }
