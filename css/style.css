@@ -165,7 +165,12 @@ color: aqua;
 cursor: help;/*
 cursor: url("if_pumpkin_60817.ico"),default;*/
 }
-
+.image
+{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
 /*a:hover special
 {
 color: aqua;
