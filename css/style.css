@@ -184,3 +184,22 @@ cursor: url("if_pumpkin_60817.ico"),default;
     width: 25px;
     background-image: url(image/2.jpg);
 }
+ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+ul li a{
+    text-decoration: none;
+    font-family: Georgia;
+    background-color: lightyellow;
+    color: red;
+    display: block;
+    width: 130px;
+    margin:5px;
+    padding: 10px;
+    border: 5px solid lightpink;
+    border-radius: 2px;
+    text-align: center;
+
+}
