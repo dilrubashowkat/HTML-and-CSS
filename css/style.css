@@ -162,7 +162,9 @@ a:visited
 a:hover
 {
 color: aqua;
-cursor: help;/*
+cursor: help;
+background-color: #d3d3d3;
+/*
 cursor: url("if_pumpkin_60817.ico"),default;*/
 }
 .image
