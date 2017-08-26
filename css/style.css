@@ -261,26 +261,26 @@ display: table-row;
     display: table-cell;
     padding: 2px;
 }
-#left{
+#left {
 
     float: left;
     padding: 15px;
     margin:10px;
     background-color: lightgreen;
 }
-#center{
+#center {
 
     float: center;
     padding: 15px;
     margin:10px;
     background-color: lightpink;
 }
-#right{
+#right {
     float: right;
     padding: 15px;
     margin:10px;
     background-color: lightyellow;
 }
-#left, #center, #right{
+#left, #center, #right {
 border:3px solid purple;
 }
