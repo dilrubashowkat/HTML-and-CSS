@@ -242,6 +242,21 @@ text-align: center;
 margin-right: 10px;
 box-sizing: border-box;
 }
-li {
-    display: inline;
+#theForm{
+color: white;
+display: table;
+padding: 1px;
+background-color: lightpink;
+border:2px solid purple;
+}
+.row{
+display: table-row;
+}
+.row label{
+display: table-cell;
+    padding: 2px;
+}
+.row input{
+    display: table-cell;
+    padding: 2px;
 }
