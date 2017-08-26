@@ -284,3 +284,10 @@ display: table-row;
 #left, #center, #right {
 border:3px solid purple;
 }
+h2+p{
+    color: blue;
+}
+h2~p{
+    color: green;
+    font-style: italic;
+}
