@@ -253,11 +253,34 @@ border:2px solid purple;
 display: table-row;
 }
 .row label{
-display: table-cell;
+    display: table-cell;
     padding: 2px;
     text-align: right;
 }
 .row input{
     display: table-cell;
     padding: 2px;
+}
+#left{
+
+    float: left;
+    padding: 15px;
+    margin:10px;
+    background-color: lightgreen;
+}
+#center{
+
+    float: center;
+    padding: 15px;
+    margin:10px;
+    background-color: lightpink;
+}
+#right{
+    float: right;
+    padding: 15px;
+    margin:10px;
+    background-color: lightyellow;
+}
+#left, #center, #right{
+border:3px solid purple;
 }
