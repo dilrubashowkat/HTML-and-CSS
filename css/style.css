@@ -190,6 +190,7 @@ ul{
     list-style: none;
     padding: 0;
     margin:0;
+    /*display: inline;*/
 }
 ul li a{
     text-decoration: none;
@@ -230,8 +231,8 @@ font-weight: bold;
     vertical-align: middle;
 }
 .button {
-background: #e7e7e7;
-border: 1px solid;
+background: lightgreen;
+border: 2px solid yellow;
 border-radius: 3px;
 font:700 13px Arial;
 height: 30px;
@@ -240,4 +241,7 @@ padding: 20px;
 text-align: center;
 margin-right: 10px;
 box-sizing: border-box;
+}
+li {
+    display: inline;
 }
