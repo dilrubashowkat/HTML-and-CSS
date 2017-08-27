@@ -291,3 +291,16 @@ h2~p{
     color: green;
     font-style: italic;
 }
+p[lang^="fr"]
+{
+    color: green;
+    background-color: lightgreen;
+}
+p[lang="fr"]
+{
+    color: orange;
+}
+p[lang$="fr"]
+{
+    color: purple;
+}
