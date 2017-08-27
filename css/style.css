@@ -304,3 +304,7 @@ p[lang$="fr"]
 {
     color: purple;
 }
+p[lang*="us"]
+{
+    background-color: lightpink;
+}
