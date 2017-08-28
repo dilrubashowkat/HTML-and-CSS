@@ -293,6 +293,13 @@ display: table-row;
 /*:not(p,body,div){
     background-color: lightgreen;
 }*/
+p::first-letter{
+    font-weight: bolder;
+    font-size: 24px;
+}
+#p2 p:first-line{
+    color:purple;
+}
 #left, #center, #right {
 border:3px solid purple;
 }
