@@ -281,12 +281,16 @@ display: table-row;
     margin:10px;
     background-color: lightyellow;
 }
+
 #right1 p:nth-child(odd) {
     float: center;
     background-color: yellow;
     color: blue;
 }
-/*:not(p){
+/*p{
+    font-weight: 4px;
+}*/
+/*:not(p,body,div){
     background-color: lightgreen;
 }*/
 #left, #center, #right {
