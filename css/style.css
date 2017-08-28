@@ -281,6 +281,12 @@ display: table-row;
     margin:10px;
     background-color: lightyellow;
 }
+#right1 p:nth-child(odd) {
+    float: right;
+    padding: 15px;
+    margin:10px;
+    background-color: orange;
+}
 #left, #center, #right {
 border:3px solid purple;
 }
