@@ -328,7 +328,7 @@ p[lang*="us"]
     background-color: lightpink;
 }
 #box1{
-color: blue;
+color: white;
 width: 150px;
 height: 150px;
 float: left;
@@ -347,7 +347,7 @@ float: left;
 margin: 10px;
 padding: 15px;
 opacity: 0.4;
-color: blue;
+color: white;
 background-color: purple;
 }
 #box2:hover {
@@ -367,7 +367,7 @@ margin: 10px;
 padding: 15px;
 background: blue;
 opacity: 0.4;
-color: blue;
+color: white;
 background: linear-gradient(blue,yellow);
 }
 #box4:hover{
@@ -375,7 +375,7 @@ background: linear-gradient(blue,yellow);
 }
 
 #box6{
-color: blue;
+color: white;
 width: 150px;
 height: 150px;
 float: left;
@@ -385,7 +385,7 @@ background: lightpink;
 background: linear-gradient(60deg,lightpink,yellow);
 }
 #box7{
-color: blue;
+color: white;
 width: 150px;
 height: 150px;
 float: left;
@@ -393,4 +393,14 @@ margin: 10px;
 padding: 15px;
 background: lightpink;
 background: linear-gradient(45deg,lightgreen,lightpink 40%);
+}
+#box8{
+color: white;
+width: 150px;
+height: 150px;
+float: left;
+margin: 10px;
+padding: 15px;
+background: blue;
+background: linear-gradient(rgba(255,255,0,0.3),rgba(0,0,255,1));
 }
