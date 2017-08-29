@@ -328,6 +328,7 @@ p[lang*="us"]
     background-color: lightpink;
 }
 #box1{
+color: blue;
 width: 150px;
 height: 150px;
 float: left;
@@ -346,6 +347,7 @@ float: left;
 margin: 10px;
 padding: 15px;
 opacity: 0.4;
+color: blue;
 background-color: purple;
 }
 #box2:hover {
@@ -358,15 +360,26 @@ background-color: purple;
     opacity: 1.0;
 }
 #box4{
-    width: 150px;
+width: 150px;
 height: 150px;
 float: left;
 margin: 10px;
 padding: 15px;
-    background: blue;
-    opacity: 0.4;
+background: blue;
+opacity: 0.4;
+color: blue;
 background: linear-gradient(blue,yellow);
 }
 #box4:hover{
     opacity: 1.0;
+}
+#box5{
+color: blue;
+width: 150px;
+height: 150px;
+float: left;
+margin: 10px;
+padding: 15px;
+background: lightgreen;
+background: linear-gradient(to right,orange,yellow);
 }
