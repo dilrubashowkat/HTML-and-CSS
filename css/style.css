@@ -57,9 +57,10 @@ font-size: medium;
 .imagec
 {
     display: block;
-    margin-left:auto;
+    align-items: left;
+    /*margin-left:auto;
     margin-right: auto;
-    background-color: lightpink;
+    background-color: lightpink;*/
 }
 div abs{
     position: absolute;
@@ -135,9 +136,8 @@ font-size: 200%;
 color: pink;
 font-family: Verdana, Arial;
 font-weight: bolder;
-text-decoration: underline overline;
 font-style:italic;
-background-color: rgb(20,28,100);
+background-color: lightyellow;
 margin: 20px;
 margin-left: 20px;
 margin-right: 20px;
@@ -145,7 +145,8 @@ padding: 20px 2px 20px 20px;
 border-color: aqua;
 border-width: 2px;
 border-style: solid;
-background-image: url(image/bokeh4.jpg);
+background-image: url(image/3.jpg);
+text-align: center;
 }
 .underline{
     text-decoration: underline;
