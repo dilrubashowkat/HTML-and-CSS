@@ -5,6 +5,7 @@ body
     background-image: url(image/bokeh2.jpg);
 
 }
+
 .header-container-wrapper{
 background-color: #33BEBE;
 }
@@ -417,4 +418,13 @@ font-size: 20px;
     text-align: center;
     text-shadow: 3px 3px 5px yellow, 6px 6px 10px pink;
 background: linear-gradient(to left, rgba(255,0,255,0.5),rgba(255,0,255,1));
+}
+#header1{
+background-color: lightyellow;
+margin:10px;
+height: 90px;
+}
+#navbar{
+background-color: lightpink;
+margin:10px;
 }
