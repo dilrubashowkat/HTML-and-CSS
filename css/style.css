@@ -421,11 +421,20 @@ font-size: 20px;
 background: linear-gradient(to left, rgba(255,0,255,0.5),rgba(255,0,255,1));
 }
 #header1{
-background-color: lightyellow;
+background-color: lightgreen;
 margin:10px;
 height: 90px;
+border-radius: 5px;
 }
 #navbar{
 background-color: lightpink;
 margin:10px;
+height: 35px;
+border-radius: 5px;
+}
+.main{
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 110%;
 }
