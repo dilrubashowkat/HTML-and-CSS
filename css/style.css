@@ -437,6 +437,9 @@ border-radius: 5px;
     padding: 20px;
     border-radius: 5px;
     font-size: 110%;
+    margin-right: 320px;
+     margin-top: 10px;
+     margin-left: 10px;
 }
 .sideright{
 background-color: lightgrey;
@@ -445,4 +448,5 @@ border-radius: 5px;
 font-size: 105%
  float:right;
  width: 260px;
+ margin:10px;
 }
