@@ -446,11 +446,21 @@ border-radius: 5px;
 background-color: lightgrey;
 padding: 20px;
 border-radius: 5px;
-font-size: 105%
+font-size: 105%;
  float:right;
  width: 260px;
  margin-right: 320px;
      margin-top: 10px;
+     margin-left: 10px;
+     margin-bottom: 10px;
+     clear: right;
+}
+.imagesideright{
+border-radius: 5px;
+ float:right;
+ width: 300px;
+ margin-right: 10px;
+     margin-top: 0px;
      margin-left: 10px;
      margin-bottom: 10px;
      clear: right;
