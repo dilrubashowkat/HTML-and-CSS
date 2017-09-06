@@ -8,3 +8,13 @@ alert("time and love in life is finite"+x+y);
 document.write(x*y+" "+ "Bad Request;");
 }
 unpredictable(2,200);
+var today = "Sat or Sun";
+var x= true;
+if(x){
+document.write(today);
+
+}
+else{
+document.write("today "+ "isn't"+ today);
+
+}
