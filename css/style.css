@@ -470,3 +470,10 @@ margin-left: 10px;
 .imagesideright:hover{
     opacity: 0.4;
 }
+
+#footer{
+    background-color: yellow;
+    margin:10px;
+    height: 60px;
+    clear: both;
+}
