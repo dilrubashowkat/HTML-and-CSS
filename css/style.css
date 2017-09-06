@@ -465,7 +465,7 @@ margin-left: 10px;
      margin-bottom: 10px;
      clear: right;
      opacity: 1.0;
-     transition: opacity is ease-in-out;
+     transition: opacity 0.5s ease-in-out;
 }
 .imagesideright:hover{
     opacity: 0.4;
