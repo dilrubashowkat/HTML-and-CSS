@@ -192,7 +192,7 @@ ul{
     list-style: none;
     padding: 0;
     margin:0;
-    /*display: inline;*/
+    display: inline;
 }
 ul li a{
     text-decoration: none;
@@ -233,8 +233,8 @@ font-weight: bold;
     vertical-align: middle;
 }
 .button {
-background: lightgreen;
-border: 2px solid yellow;
+background: orange;
+border: 2px solid lightyellow;
 border-radius: 3px;
 font:700 13px Arial;
 height: 30px;
@@ -243,6 +243,11 @@ padding: 20px;
 text-align: center;
 margin-right: 10px;
 box-sizing: border-box;
+}
+.button:hover{
+color: aqua;
+cursor: help;
+background-color: #d3d3d3;
 }
 #theForm{
 color: white;
@@ -427,10 +432,21 @@ height: 90px;
 border-radius: 5px;
 }
 #navbar{
-background-color: lightpink;
+background-color: purple;
 margin:10px;
 height: 35px;
 border-radius: 5px;
+}
+#navbar ul{
+    padding: 5px;
+    list-style-type: none;
+    text-align: right;
+    background-color: yellow;
+    margin:10px;
+    border-radius: 5px;
+}
+#navbar ul li{
+    display: inline;
 }
 .main{
     background-color: lightgrey;
