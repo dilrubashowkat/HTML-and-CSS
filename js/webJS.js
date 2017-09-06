@@ -9,8 +9,12 @@ document.write(x*y+" "+ "Bad Request;");
 }
 unpredictable(2,200);
 var today = "Sat or Sun";
-var x= true;
-if(x){
+var x= 5;
+if(x==4){
+document.write(today);
+
+}
+else if(x==7){
 document.write(today);
 
 }
