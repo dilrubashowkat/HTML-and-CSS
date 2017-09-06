@@ -464,4 +464,8 @@ border-radius: 5px;
      margin-left: 10px;
      margin-bottom: 10px;
      clear: right;
+     opacity: 1.0;
+}
+.imagesideright:hover{
+    opacity: 0.4;
 }
