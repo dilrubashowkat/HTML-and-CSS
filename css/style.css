@@ -427,9 +427,13 @@ background: linear-gradient(to left, rgba(255,0,255,0.5),rgba(255,0,255,1));
 }
 #header1{
 background-color: lightgreen;
-margin:10px;
+margin:0px;
 height: 90px;
 border-radius: 5px;
+font-size: 250%;
+text-align:center;
+position: relative;
+top: 50%;
 }
 #navbar{
 background-color: purple;
