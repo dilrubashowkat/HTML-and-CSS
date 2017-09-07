@@ -237,7 +237,7 @@ background: orange;
 border: 2px solid lightyellow;
 border-radius: 5px;
 font:700 13px Arial;
-height: 40px;
+height: 20px;
 line-height: 28px;
 padding: 20px;
 text-align: center;
@@ -439,9 +439,8 @@ top: 50%;
     transform:translateY(-50%);
 }
 #navbar{
-    background-color: purple;
 margin:10px;
-height: 35px;
+height: 30px;
 border-radius: 5px;
 }
 #navbar ul{
