@@ -235,13 +235,13 @@ font-weight: bold;
 .button {
 background: orange;
 border: 2px solid lightyellow;
-border-radius: 3px;
+border-radius: 5px;
 font:700 13px Arial;
-height: 30px;
+height: 40px;
 line-height: 28px;
 padding: 20px;
 text-align: center;
-margin-right: 10px;
+margin: 10px;
 box-sizing: border-box;
 }
 .button:hover{
@@ -439,7 +439,7 @@ top: 50%;
     transform:translateY(-50%);
 }
 #navbar{
-background-color: purple;
+    background-color: purple;
 margin:10px;
 height: 35px;
 border-radius: 5px;
@@ -447,13 +447,14 @@ border-radius: 5px;
 #navbar ul{
     padding: 5px;
     list-style-type: none;
-    text-align: right;
     background-color: yellow;
     margin:10px;
     border-radius: 5px;
 }
-#navbar ul li{
+#navbar ul li a{
     display: inline;
+    text-align: center;
+
 }
 .main{
     background-color: lightgrey;
@@ -505,4 +506,7 @@ margin-left: 10px;
     font-size: 90%;
     color: green;
     padding: 15px;
+}
+#footer ul li a{
+    display: inline;
 }

@@ -32,3 +32,18 @@ font-size: 105%
      margin-left: 10px;
      margin-bottom: 10px;
 }
+#footer{
+    background-color: yellow;
+    margin:10px;
+    height: 60px;
+    clear: both;
+    border-radius: 5px;
+    text-align: center;
+    clear: both;
+    font-size: 90%;
+    color: green;
+    padding: 15px;
+}
+#footer ul li a{
+    display: inline;
+}
