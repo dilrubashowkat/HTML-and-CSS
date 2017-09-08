@@ -33,9 +33,9 @@ i++;
 }
 
 var buddy = {
-species: "cat";
-color: "brown";
-Friendly: true;
-age: "15months";
-}
+species: "cat",
+color: "brown",
+Friendly: true,
+age: "15months",
+};
 document.write(buddy);
