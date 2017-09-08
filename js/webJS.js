@@ -6,8 +6,10 @@ document.write("I was amazed with the password ... ");
 function unpredictable(x,y){
 alert("time and love in life is finite"+x+y);
 document.write(x*y+" "+ "Bad Request;");
+return 9;
 }
-unpredictable(2,200);
+var v = unpredictable(2,200);
+document.write(v);
 var today = "Sat or Sun";
 var x= 5;
 if(x==4){
