@@ -1,3 +1,7 @@
+#container{
+    width: 1200px;
+    margin:0px auto;
+}
 #header1{
 background-color: #EC407A;
 margin:10px;
@@ -12,7 +16,7 @@ h1#header1 {
 #navbar{
 background-color: lightyellow;
 margin:10px;
-height: 35px;
+height:35px;
 border-radius: 5px;
 }
 .main{
@@ -29,7 +33,7 @@ border-radius: 5px;
 background-color: lightgrey;
 padding: 20px;
 border-radius: 5px;
-font-size: 105%
+font-size: 105%;
  float:right;
  width: 260px;
  margin-right: 320px;
