@@ -31,3 +31,11 @@ while(i<5)
 document.write(i);
 i++;
 }
+
+var buddy = {
+species: "cat";
+color: "brown";
+Friendly: true;
+age: "15months";
+}
+document.write(buddy);

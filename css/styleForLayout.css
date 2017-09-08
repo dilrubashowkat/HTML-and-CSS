@@ -1,8 +1,13 @@
 #header1{
-background-color: pink;
+background-color: #EC407A;
 margin:10px;
 height: 90px;
 border-radius: 5px;
+}
+h1#header1 {
+    font-size: larger;
+    color: #FFEB3B;
+    text-align: center;
 }
 #navbar{
 background-color: lightyellow;
@@ -33,7 +38,7 @@ font-size: 105%
      margin-bottom: 10px;
 }
 #footer{
-    background-color: yellow;
+    background-color: #80DEEA;
     margin:10px;
     height: 60px;
     clear: both;
