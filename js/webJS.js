@@ -37,5 +37,12 @@ species: "cat",
 color: "brown",
 Friendly: true,
 age: "15months",
+eat:function() {
+    // body...
+    document.write("hi I am buddy, the pussy cat!! ")
+}
+
 };
-document.write(buddy);
+
+if(buddy.Friendly==true)
+    buddy.eat();
