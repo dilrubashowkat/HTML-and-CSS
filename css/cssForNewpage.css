@@ -6,17 +6,18 @@ body{
 width: 968px;
 }
 .header{
-    background: lightgreen;
-    height: 5px;
+    background: #80DEEA;
+    height: 55px;
     width: 964px;
-    border: solid 2px #000;
+    /*border: solid 2px #F48FB1;*/
     color: white;
+    text-align: center;
 }
 #nav{
-    background: orange;
+    background: #f377a1;
     height: 30px;
     width: 964px;
-    border: solid 2px #000;
+    /*border: solid 2px #000;*/
 font-weight: bold;
 }
 .sidebar{
