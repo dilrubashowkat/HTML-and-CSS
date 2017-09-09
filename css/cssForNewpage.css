@@ -18,7 +18,10 @@ width: 968px;
     height: 30px;
     width: 964px;
     /*border: solid 2px #000;*/
-font-weight: bold;
+    font-weight: bold;
+    color: palegreen;
+    text-align: center;
+    font-size: x-large;
 }
 .sidebar{
 float: left;
@@ -34,17 +37,20 @@ background: lightyellow;
     background: lightyellow;
     height: 9500px;
     width: 786px;
-    border-right: solid 2px #000;
+    /*border-right: solid 2px #000;*/
     border-left: solid 2px #000;
     border-bottom:solid 2px #000;
+    border-bottom-right-radius: 1em;
     font-family: Arial,Serif;
     font-size: 16px;
     overflow: auto;
-    border-bottom-right-radius: 1em;
+}
+h2{
+
 }
 #box2{
-width: 150px;
-height: 150px;
+width: 200px;
+height: 200px;
 float: left;
 margin: 10px;
 padding: 15px;
