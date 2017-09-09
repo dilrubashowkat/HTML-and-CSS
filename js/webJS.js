@@ -46,3 +46,8 @@ eat:function() {
 
 if(buddy.Friendly==true)
     buddy.eat();
+
+buddy.Friendly=false;
+
+if(buddy.Friendly==false)
+    buddy.eat();
