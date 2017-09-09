@@ -56,8 +56,41 @@ margin: 10px;
 padding: 15px;
 opacity: 0.4;
 color: white;
-background-color: purple;
+background-color: #00bcd4;
+border-radius: 5px;
 }
 #box2:hover {
     opacity: 1.0;
 }
+#box1{
+width: 200px;
+height: 200px;
+float: left;
+margin: 10px;
+padding: 15px;
+/*opacity: 0.4;*/
+color: white;
+background-color: #80deea;
+border-radius: 5px;
+}
+.test{
+    display: block;
+    text-align: inline;
+}
+.button {
+background: lightyellow;
+/*border: 2px solid lightyellow;*/
+border-radius: 5px;
+font:700 13px serif;
+height: 15px;
+line-height: 28px;
+padding: 20px;
+text-align: center;
+margin: 10px;
+box-sizing: border-box;
+}
+/*.button:hover{
+color: aqua;
+cursor: help;
+background-color: #d3d3d3;
+}*/
