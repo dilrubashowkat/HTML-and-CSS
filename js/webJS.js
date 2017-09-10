@@ -51,3 +51,12 @@ buddy.Friendly=false;
 
 if(buddy.Friendly==false)
     buddy.eat();
+
+var str = "how are you?";
+document.write(str.toUpperCase());
+document.write(str.length);
+document.write(str.bold());
+document.write(str.replace("you","me"));
+
+var num = 3.14;
+document.write(Math.round(num));
