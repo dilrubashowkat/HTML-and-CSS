@@ -60,3 +60,6 @@ document.write(str.replace("you","me"));
 
 var num = 3.14;
 document.write(Math.round(num));
+
+var tD = new Date();
+document.write(tD);
