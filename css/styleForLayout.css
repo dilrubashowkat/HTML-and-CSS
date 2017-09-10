@@ -30,7 +30,7 @@ p {
     font-size: medium;
 }
 #navbar{
-background-color: #b2ebf2;
+background-color: #80DEEA;
 margin:10px;
 height:35px;
 border-radius: 5px;
@@ -84,4 +84,22 @@ font-size: 105%;
 
 #footer ul li a{
     display: inline;
+}
+.button {
+background: #FFF59D;
+border: 2px solid #FFAB91;
+border-radius: 5px;
+font:800 13px sans-serif;
+height: 15px;
+line-height: 28px;
+padding: 20px;
+text-align: center;
+margin: 10px;
+box-sizing: border-box;
+color: darkturquoise;
+}
+.button:hover{
+color: darkmagenta;
+border:aqua;
+background-color: #d3d3d3;
 }
