@@ -63,3 +63,12 @@ document.write(Math.round(num));
 
 var tD = new Date();
 document.write(tD);
+
+function change()
+{  var id = document.getElementById("test1");
+    id.style.color="lime";
+
+    var idP = document.getElementById("footer");
+    idP.style.color="lightgreen";
+}
+

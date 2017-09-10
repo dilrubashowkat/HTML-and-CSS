@@ -148,6 +148,24 @@ border-style: solid;
 background-image: url(image/3.jpg);
 text-align: center;
 }
+#test1{
+font-size: 200%;
+color: pink;
+font-family: Verdana, Arial;
+font-weight: bolder;
+font-style:italic;
+background-color: lightyellow;
+margin: 20px;
+margin-left: 20px;
+margin-right: 20px;
+padding: 20px 2px 20px 20px;
+border-color: aqua;
+border-width: 2px;
+border-style: solid;
+background-image: url(image/3.jpg);
+text-align: center;
+}
+
 .underline{
     text-decoration: underline;
     text-shadow: 1px;
