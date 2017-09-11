@@ -80,5 +80,7 @@ function change()
     var idClass = document.getElementsByClassName('sideright');
         for(var i=0;i<idClass.length;i++)
             idClass[i].style.color = "purple";
-}
+    idClass[0].innerHTML = "replace lorem epsum";
+
+    }
 
