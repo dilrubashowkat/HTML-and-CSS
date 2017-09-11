@@ -82,5 +82,7 @@ function change()
             idClass[i].style.color = "purple";
     idClass[0].innerHTML = "replace lorem epsum";
 
+    document.getElementById("image").src="image/1.jpg";
+
     }
 
