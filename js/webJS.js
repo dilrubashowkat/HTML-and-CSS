@@ -68,7 +68,17 @@ function change()
 {  var id = document.getElementById("test1");
     id.style.color="lime";
 
+
     var idP = document.getElementById("footer");
-    idP.style.color="lightgreen";
+    idP.style.color="purple";
+    idP.style.backgroundColor="lightgreen";
+
+    var idTag = document.getElementsByTagName('h1');
+        for(var i=0;i<idTag.length;i++)
+            idTag[i].style.color = "magenta";
+
+    var idClass = document.getElementsByClassName('sideright');
+        for(var i=0;i<idClass.length;i++)
+            idClass[i].style.color = "purple";
 }
 
