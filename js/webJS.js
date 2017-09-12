@@ -83,9 +83,9 @@ function change()
     idClass[0].innerHTML = "replace lorem epsum";
 
     document.getElementById("image").src="image/1.jpg";
-    document.getElementById("para1").style.color="aqua";
+}
 
-
-
+function test2(){
+    document.getElementById("para1").style.backgroundColor="aqua";
     }
 
