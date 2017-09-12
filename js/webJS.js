@@ -89,3 +89,7 @@ function test2(){
     document.getElementById("para1").style.backgroundColor="aqua";
     }
 
+function test3(){
+    document.getElementById("para1").style.backgroundColor="";
+    }
+
