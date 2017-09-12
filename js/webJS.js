@@ -82,7 +82,6 @@ function change()
             idClass[i].style.color = "purple";
     idClass[0].innerHTML = "replace lorem epsum";
 
-    document.getElementById("image").src="image/1.jpg";
 }
 
 function test2(){
@@ -93,3 +92,9 @@ function test3(){
     document.getElementById("para1").style.backgroundColor="";
     }
 
+function replaceImage(){
+    document.getElementById("image").src="image/1.jpg";
+}
+function oldImage(){
+    document.getElementById("image").src="image/3.jpg";
+}
