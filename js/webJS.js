@@ -99,9 +99,9 @@ function oldImage(){
     document.getElementById("image").src="image/3.jpg";
 }
 function changeParagraph(){
-    var p1 = document.createElement("p");
-    var element = document.getElementById("main");
-    element.appendChild(p1);
-    var text = document.createTextNode("consequat sodales erat.");
-    p1.appendChild(text);
+    var element = document.createElement("p");
+    var e = document.getElementById("main");
+    e.appendChild(element);
+    var temp = document.createTextNode("Happy Birthday!");
+    element.appendChild(temp);
 }
