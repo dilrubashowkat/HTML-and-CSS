@@ -100,8 +100,8 @@ function oldImage(){
 }
 function changeParagraph(){
     var element = document.createElement("p");
-    var e = document.getElementById("main");
+    var e = document.getElementById("para9");
     e.appendChild(element);
-    var temp = document.createTextNode("Happy Birthday!");
+    var temp = document.createTextNode("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum semper mauris, in varius dui venenatis eu. Curabitur sollicitudin condimentum eros in auctor. Etiam aliquam magna urna, nec sagittis turpis fermentum vel. Morbi sed viverra ex. Suspendisse id rutrum tellus, eget facilisis tellus. Aenean egestas, risus eu ullamcorper ultricies, orci sem scelerisque lectus, ut efficitur metus felis sed mi. Vestibulum dolor urna, condimentum eu dolor vel, consequat sodales erat.");
     element.appendChild(temp);
 }
