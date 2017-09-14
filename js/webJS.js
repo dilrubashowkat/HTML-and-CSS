@@ -66,7 +66,7 @@ document.write(tD);
 
 function change()
 {  var id = document.getElementById("test1");
-    id.style.color="lime";
+    id.style.color="#aed581";
 
 
     var idP = document.getElementById("footer");
@@ -99,9 +99,16 @@ function oldImage(){
     document.getElementById("image").src="image/3.jpg";
 }
 function changeParagraph(){
-    var element = document.createElement("p");
+    var elementHeader = document.createElement("h2");
+    var elementP = document.createElement("p");
     var e = document.getElementById("para9");
-    e.appendChild(element);
+
+    e.appendChild(elementHeader);
+    var temp = document.createTextNode("Just a header.");
+    elementHeader.appendChild(temp);
+
+    e.appendChild(elementP);
     var temp = document.createTextNode("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum semper mauris, in varius dui venenatis eu. Curabitur sollicitudin condimentum eros in auctor. Etiam aliquam magna urna, nec sagittis turpis fermentum vel. Morbi sed viverra ex. Suspendisse id rutrum tellus, eget facilisis tellus. Aenean egestas, risus eu ullamcorper ultricies, orci sem scelerisque lectus, ut efficitur metus felis sed mi. Vestibulum dolor urna, condimentum eu dolor vel, consequat sodales erat.");
-    element.appendChild(temp);
+    elementP.appendChild(temp);
 }
+
