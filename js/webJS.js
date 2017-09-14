@@ -103,6 +103,10 @@ function deleteHeaderAndPara()
     var name = document.getElementsByTagName("h2")[2];
     var parent = name.parentNode;
     parent.removeChild(name);
+
+    var name1 = document.getElementsByTagName("p")[4];
+    parent.removeChild(name1);
+
 }
 function changeParagraph(){
     var elementHeader = document.createElement("h2");
