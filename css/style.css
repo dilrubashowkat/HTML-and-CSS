@@ -100,16 +100,16 @@ div fix{
    text-align: center;
 }
 h1,h4 {
-background-color: lightyellow;
-color: blue;
+background-color: rgba(127, 255, 212, 0.6);
+color: #ff7043;
     }
     h3{
-        background-color: lightblue;
-        color: magenta;
+        background-color: #80DEEA;
+        color: #ce93d8;
     }
     p{
 font-size: 20px;
-color: blue;
+color: #4DD0E1;
 font-family: helvetica;
     }
     #p1
@@ -332,7 +332,7 @@ h2+p{
     color: blue;
 }
 h2~p{
-    color: green;
+    color: orange;
     font-style: italic;
 }
 p[lang^="fr"]
@@ -484,7 +484,7 @@ border-radius: 5px;
      margin-bottom: 10px;
 }
 .sideright{
-background-color: lightgrey;
+background-color: #fff9c4;
 padding: 20px;
 border-radius: 5px;
 font-size: 105%;
