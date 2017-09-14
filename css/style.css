@@ -251,8 +251,8 @@ font-weight: bold;
     vertical-align: middle;
 }
 .button {
-background: orange;
-border: 2px solid lightyellow;
+background: #ffab91;
+/*border: 2px solid #00bcd4;*/
 border-radius: 5px;
 font:700 13px Arial;
 height: 20px;
