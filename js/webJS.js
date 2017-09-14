@@ -98,6 +98,12 @@ function replaceImage(){
 function oldImage(){
     document.getElementById("image").src="image/3.jpg";
 }
+function deleteHeaderAndPara()
+{
+    var name = document.getElementsByTagName("h2")[2];
+    var parent = name.parentNode;
+    parent.removeChild(name);
+}
 function changeParagraph(){
     var elementHeader = document.createElement("h2");
     var elementP = document.createElement("p");
