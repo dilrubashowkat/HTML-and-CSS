@@ -100,11 +100,11 @@ function oldImage(){
 }
 function deleteHeaderAndPara()
 {
-    var name = document.getElementsByTagName("h2")[2];
+    var name = document.getElementsByTagName("h2")[1];
     var parent = name.parentNode;
     parent.removeChild(name);
 
-    var name1 = document.getElementsByTagName("p")[4];
+    var name1 = document.getElementsByTagName("p")[2];
     parent.removeChild(name1);
 
 }
