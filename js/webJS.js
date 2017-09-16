@@ -161,3 +161,10 @@ function changeText2()
     sibling1.style.backgroundColor = "white";
 
 }
+
+function validateText(){
+var boxN = document.getElementById("name");
+if(boxN.value=="")
+    alert("the field cannot be left blank");
+
+}
