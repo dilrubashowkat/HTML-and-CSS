@@ -483,6 +483,16 @@ border-radius: 5px;
      margin-left: 10px;
      margin-bottom: 10px;
 }
+#mainTest{
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 110%;
+    margin-right: 320px;
+     margin-top: 10px;
+     margin-left: 10px;
+     margin-bottom: 10px;
+}
 .sideright{
 background-color: #fff9c4;
 padding: 20px;

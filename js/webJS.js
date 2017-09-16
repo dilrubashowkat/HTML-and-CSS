@@ -128,3 +128,9 @@ function changeParagraph(){
 
 }
 
+function changeText(){
+    var par = document.getElementById('main');
+    var child = par.childNodes[1];
+    child.style.color = "blue";
+
+}
