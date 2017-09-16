@@ -291,20 +291,34 @@ display: table-row;
     float: left;
     padding: 15px;
     margin:10px;
-    background-color: lightgreen;
+    color: magenta;
+    background-color: #80deea;
 }
+#left p{
+    color: yellow;
+}
+
 #center {
 
     float: center;
     padding: 15px;
     margin:10px;
     background-color: lightpink;
+    color: magenta;
+}
+#center p{
+    color: white;
 }
 #right {
     float: right;
     padding: 15px;
     margin:10px;
     background-color: lightyellow;
+    color: magenta;
+
+}
+#right p{
+    color: blue;
 }
 
 #right1 p:nth-child(odd) {
