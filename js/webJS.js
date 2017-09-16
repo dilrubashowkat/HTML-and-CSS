@@ -129,8 +129,16 @@ function changeParagraph(){
 }
 
 function changeText(){
-    var par = document.getElementById('main');
-    var child = par.childNodes[1];
-    child.style.color = "blue";
+    var par = document.getElementById("mainTest");
+        var child = par.childNodes;
+
+        var child1 = par.firstElementChild;
+    child1.style.color = "yellow";
+
+    for(var i = 3;i<=child.length ; i=i+2)
+    {
+        child[i].style.color = "blue";
+    }
+
 
 }
