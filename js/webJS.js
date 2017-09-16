@@ -133,18 +133,31 @@ function changeText(){
         var child = par.childNodes;
 
         var child1 = par.firstElementChild;
-    child1.style.color = "yellow";
+    child1.style.color = "#00bcd4";
 
-    for(var i = 3;i<=child.length ; i=i+2)
+    for(var i = 3;i<=child.length;i=i+2)
     {
-        child[i].style.color = "blue";
+        child[i].style.color = "rgba(0, 0, 255, 0.56)";
     }
 }
-function changeText1(){
+
+function changeText1()
+{
     var child = document.getElementById("para2");
     var parent = child.parentNode;
-    parent.style.color = "lime";
+    parent.style.color = "#ce93d8";
     parent.style.backgroundColor = "lightpink";
+}
 
+function changeText2()
+{
+    var para = document.getElementById("para3");
+    var sibling = para.nextElementSibling;
+    sibling.style.color = "white";
+    sibling.style.backgroundColor = "magenta";
+
+    var sibling1 = para.previousElementSibling;
+    sibling1.style.color = "orange";
+    sibling1.style.backgroundColor = "white";
 
 }

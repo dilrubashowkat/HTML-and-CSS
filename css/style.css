@@ -484,7 +484,7 @@ border-radius: 5px;
      margin-bottom: 10px;
 }
 #mainTest {
-    background-color: lightgreen;
+    background-color: #dcedc8;
     padding: 20px;
     border-radius: 5px;
     font-size: 110%;
@@ -523,7 +523,7 @@ margin-left: 10px;
 }
 
 #footer{
-    background-color: yellow;
+    background-color: lightgreen;
     margin:10px;
     height: 60px;
     clear: both;
@@ -531,15 +531,19 @@ margin-left: 10px;
     text-align: center;
     clear: both;
     font-size: 90%;
-    color: green;
+    color: yellow;
     padding: 15px;
 }
 #para1{
-    color: rgba(255, 0, 255, 0.71);
+    color: #E91E63;
     font-style: bold;
 }
 #para2{
-    color: rgba(255, 0, 0, 0.71);
+    color: #4fc3f7;
+    font-style: bold;
+}
+#para3{
+    color: rgba(0, 0, 255, 0.54);
     font-style: bold;
 }
 #para9{
