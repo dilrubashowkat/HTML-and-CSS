@@ -120,5 +120,11 @@ function changeParagraph(){
     e.appendChild(elementP);
     var temp = document.createTextNode("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum semper mauris, in varius dui venenatis eu. Curabitur sollicitudin condimentum eros in auctor. Etiam aliquam magna urna, nec sagittis turpis fermentum vel. Morbi sed viverra ex. Suspendisse id rutrum tellus, eget facilisis tellus. Aenean egestas, risus eu ullamcorper ultricies, orci sem scelerisque lectus, ut efficitur metus felis sed mi. Vestibulum dolor urna, condimentum eu dolor vel, consequat sodales erat.");
     elementP.appendChild(temp);
+
+    var attribute = document.createAttribute("id");
+    attribute.value = "testAttribute";
+    elementP.setAttributeNode(attribute);
+
+
 }
 
