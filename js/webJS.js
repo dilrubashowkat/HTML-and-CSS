@@ -139,6 +139,12 @@ function changeText(){
     {
         child[i].style.color = "blue";
     }
+}
+function changeText1(){
+    var child = document.getElementById("para2");
+    var parent = child.parentNode;
+    parent.style.color = "lime";
+    parent.style.backgroundColor = "lightpink";
 
 
 }
