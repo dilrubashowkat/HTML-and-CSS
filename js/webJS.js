@@ -166,7 +166,11 @@ function validateText(){
 var boxN = document.getElementById("name");
 var boxA = document.getElementById("address");
 if(boxN.value.length <= 5 || boxA.value.length <= 5)
+{
     alert("enter 5 characters atleast");
+    boxA.focus();
+    boxA.style.color="solid 5px red";
+}
 else
     return false;
 
