@@ -104,7 +104,7 @@ h1{
 <button onclick="changeText2()">Click here: sibling -> sibling!</button>
 <br>
 <br>
-<form id="theForm" action="poems.html" method="post" onSubmit="validateText()">
+<form id="theForm" action="poems.html" method="post" onSubmit="return validateText();">
     <div class="row">
         <label for="name">Name:</label>
         <input type="text" id="name" name="">
@@ -118,6 +118,10 @@ h1{
     <div class="row">
         <label for="adderss">Address:</label>
         <input type="text" id="adderss" name="">
+    </div>
+    <div class="row">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="">
     </div>
 <br>
 <input type="submit" name="" value="Submit">

@@ -164,7 +164,9 @@ function changeText2()
 
 function validateText(){
 var boxN = document.getElementById("name");
-if(boxN.value=="")
+if(boxN.value == "")
     alert("the field cannot be left blank");
+else
+    return false;
 
 }
