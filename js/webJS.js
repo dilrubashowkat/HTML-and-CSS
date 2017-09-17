@@ -165,8 +165,8 @@ function changeText2()
 function validateText(){
 var boxN = document.getElementById("name");
 var boxA = document.getElementById("address");
-if(boxN.value == "" || boxA.value == "")
-    alert("the field cannot be left blank");
+if(boxN.value.length <= 5 || boxA.value.length <= 5)
+    alert("enter 5 characters atleast");
 else
     return false;
 
