@@ -82,9 +82,10 @@ div fix{
 }
 .imageS{
     padding: 10px;
-    border: solid 4px blue;
+    border: solid 4px #f7bde8;
     margin-left: 25px;
-    background-color: lightgreen;
+    background-color: #BDBDBD;;
+    border-radius: 5px;
 }
 .centered-container {
     display: table;
@@ -115,7 +116,7 @@ font-family: helvetica;
     #p1
     {
 font-size: 20px;
-color: white;
+color: #81c784;
 font-family: helvetica;
 padding: 10px;
 margin:20px;
@@ -569,4 +570,8 @@ margin-left: 10px;
 }
 #testAttribute{
     color: #f06292;
+
+}
+#p2{
+    color: #1abce2;
 }
