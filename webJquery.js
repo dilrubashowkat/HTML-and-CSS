@@ -10,6 +10,8 @@ $("div:first").hide();
 $("#mainTest p:first").hide();
 $("div:even").hide();
 $("div:odd").hide();
+$("ul li:nth-child(1)").hide();
+
 
 });
 }
