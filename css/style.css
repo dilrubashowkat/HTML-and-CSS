@@ -562,6 +562,10 @@ margin-left: 10px;
     color: rgba(0, 0, 255, 0.54);
     font-style: bold;
 }
+.para{
+    color: blue;
+    background-color: yellow;
+}
 #para9{
     color: purple;
     font-style: bold;
