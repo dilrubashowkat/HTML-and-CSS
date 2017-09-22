@@ -166,16 +166,14 @@ $("#para2").css({"border":"solid 3px aqua","color":"magenta"});
 //$("p").html("<p2>buddy the cat with a hat</p2>");
 $("h5").text("give h5 some text: *buddy the cat with a hat*");
 $("#para3").css("color","lime").css("border","solid 3px yellow");
-//$("#para3").css("color","lime").css("border","solid 3px yellow").fadeOut("50000");
-//$("p:last").addClass("para");
-//$("div").removeClass("sideright");
-//$("p:first").toggleClass("p4");
-//$("#p3").fadeIn(2500);
+
 $("#p4").fadeOut(2500);
 $("#p5").fadeTo(2500,0.5);
 $("#p5").fadeToggle(2500);
 $("#p3").fadeIn(2500).fadeOut(2500);
-$("#mainTest").append("<h2> here comes a header after mainTest div element</h>");
+//$("p").replaceWith("<p>replace all the paragraph</p>");
+//$("#mainTest").append("<h2> here comes a header after mainTest div element</h>");
+$("#mainTest").prepend("<h2> here comes a header after mainTest div element</h>");
 
     });
 
