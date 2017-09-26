@@ -3,6 +3,8 @@
 <head>
     <title>New Page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
 </head>
 <style>
 body {                      /*this will overrid the default style*/
@@ -176,10 +178,12 @@ $("#p3").fadeIn(2500).fadeOut(2500);
 $("#mainTest").prepend("<h2> here comes a header after mainTest div element</h>");
 //$("div").remove();
 $("img").attr("src","image/shopping.jpg");
-
     });
 
+
 });
+d3.select("p").text("test d3");
+
     </script>
 </body>
 </html>
