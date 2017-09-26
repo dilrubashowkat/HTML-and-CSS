@@ -11,6 +11,30 @@
 
 </head>
 <body>
+<div class="container">
+    <canvas id="newChart">
 
+    </canvas>
+
+</div>
+    <script type="">
+        let newChart=document.getElementById('newChart').getContext('2d');
+        let allChart = new Chart(newChart,{
+            type:'bar',
+            data:{
+                labels:['W','X','Y','Z'],
+                datasets:[{
+                    label:'dimention',
+                    data:[
+                    34907,
+                    19999,
+                    30087,
+                    45000
+                    ]
+                }]
+            },
+            options:{}
+        });
+    </script>
 </body>
 </html>
