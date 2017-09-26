@@ -17,6 +17,8 @@
 
     <canvas id="newChart">
     </canvas>
+    <canvas id="newChart1">
+    </canvas>
 
 </div>
     <script type="">
@@ -38,7 +40,36 @@
                     'yellow',
                     'pink',
                     'lightblue'
-                    ]
+                    ],
+                    borderWidth:1,
+                    borderColor:'blue'
+                }]
+            },
+            options:{}
+        });
+
+
+        let newChart1=document.getElementById('newChart1').getContext('2d');
+        let allChart1 = new Chart(newChart1,{
+            type:'pie',
+            data:{
+                labels:['W','X','Y','Z'],
+                datasets:[{
+                    label:'dimension',
+                    data:[
+                    34907,
+                    19999,
+                    30087,
+                    45000
+                    ],
+                    backgroundColor:[
+                    'lightgreen',
+                    'yellow',
+                    'pink',
+                    'lightblue'
+                    ],
+                    borderWidth:1,
+                    borderColor:'blue'
                 }]
             },
             options:{}
