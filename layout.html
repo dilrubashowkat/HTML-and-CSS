@@ -182,7 +182,10 @@ $("#mainTest").prepend("<h2> here comes a header after mainTest div element</h>"
 $("img").attr("src","image/shopping.jpg");
 d3.select("p").text("test d3");
 
-d3.select("body").append("p").text("test d3 again, its fun");
+d3.select("body")
+.append("p")
+.style("color","blue")
+.text("test d3 again, its fun");
 
     });
 
