@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+
+</head>
+<style>
+body {                      /*this will overrid the default style*/
+    font-size: 14px;
+    font-family: Verdana, Serif;
+
+}
+h1{
+    color: purple;
+}
+</style>
+
+
+<body>
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        var array = [20,40,50];
+
+ var svg_element = d3.select("body")
+.append("svg")
+.attr("height",500)
+.attr("width",500);
+
+ var bar =  svg_element.selectAll("rect")
+    .data(array)
+    .enter()
+        .append("rect")
+        .attr("width",function(d){return d;})
+        .attr("height",50)
+        .attr("y",function(d, i){return i*100;});
+    </script>
+
+</body>
+</html>
