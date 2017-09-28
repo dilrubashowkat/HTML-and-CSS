@@ -24,19 +24,31 @@ h1{
 
     <script src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript">
-        var array = [20,40,50];
+
+        var array = [20,40,50, 60];
+        var h = 500;
+        var w = 500;
+
+        var wS = d3.scale.linear()
+                    .domain([0,60])
+                    .range([0,w]);
+        var color = d3.scale.linear()
+                    .domain([0,60])
+                    .range(["magenta","blue"]);
+
 
  var svg_element = d3.select("body")
 .append("svg")
-.attr("height",500)
-.attr("width",500);
+.attr("height",h)
+.attr("width",w);
 
  var bar =  svg_element.selectAll("rect")
     .data(array)
     .enter()
         .append("rect")
-        .attr("width",function(d){return d;})
+        .attr("width",function(d){return wS(d);})
         .attr("height",50)
+        .attr("fill",function(d){return color(d); })
         .attr("y",function(d, i){return i*100;});
     </script>
 
