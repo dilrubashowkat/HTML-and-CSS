@@ -40,7 +40,10 @@ h1{
  var svg_element = d3.select("body")
 .append("svg")
 .attr("height",h)
-.attr("width",w);
+.attr("width",w)
+.append("g")
+.attr("transform","translate(70,70)");
+
 
  var bar =  svg_element.selectAll("rect")
     .data(array)
