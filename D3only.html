@@ -37,6 +37,7 @@ h1{
                     .range(["magenta","blue"]);
 
 var axis = d3.svg.axis()
+            .ticks(5)  //for editing the axis scale
             .scale(wS);
 
 var svg_element = d3.select("body")
@@ -44,9 +45,8 @@ var svg_element = d3.select("body")
 .attr("height",h)
 .attr("width",w)
 .append("g")
-.attr("transform","translate(20,0)")
-.call(axis);
-
+.attr("transform","translate(20,0)");
+//.call(axis);
 
  var bar =  svg_element.selectAll("rect")
     .data(array)
@@ -56,6 +56,10 @@ var svg_element = d3.select("body")
         .attr("height",50)
         .attr("fill",function(d){return color(d); })
         .attr("y",function(d, i){return i*100;});
+
+svg_element.append("g")
+    .attr("transform","translate(0,400)")
+    .call(axis);
     </script>
 
 </body>
