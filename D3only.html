@@ -48,7 +48,7 @@ var svg_element = d3.select("body")
 .attr("transform","translate(20,0)");
 //.call(axis);
 
- var bar =  svg_element.selectAll("rect")
+var bar =  svg_element.selectAll("rect")
     .data(array)
     .enter()
         .append("rect")
@@ -60,6 +60,23 @@ var svg_element = d3.select("body")
 svg_element.append("g")
     .attr("transform","translate(0,400)")
     .call(axis);
+
+/*var data1[] = [10, 20];
+
+var circle = svg_element.selectAll("circle")
+        .attr("cx",50)
+        .attr("cy",50)
+        .attr("r",25)
+        .attr("transform","translate(10,400)");
+
+var circles = svg_element.selectAll("circles")
+    .data(data1)
+    .enter()
+        .append("circles")
+        .attr("cx",50)
+        .attr("cy",50)
+        .attr("r",25);*/
+
     </script>
 
 </body>
