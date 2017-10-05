@@ -25,7 +25,7 @@ h1{
     <script src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript">
 
-        var array = [20,40,50, 60];
+        var array = [20,40,50,60];
         var h = 500;
         var w = 500;
 
@@ -41,9 +41,9 @@ var axis = d3.svg.axis()
             .scale(wS);
 
 var svg_element = d3.select("body")
-.append("svg")
-.attr("height",h)
-.attr("width",w)
+    .append("svg")
+    .attr("height",h)
+    .attr("width",w)
 .append("g")
 .attr("transform","translate(20,0)");
 //.call(axis);
@@ -59,15 +59,18 @@ var bar =  svg_element.selectAll("rect")
 
 svg_element.append("g")
     .attr("transform","translate(0,400)")
+    .transition(1500)
+    .duration(2000)
     .call(axis);
+/*
+var data1[] = [10, 20];
 
-/*var data1[] = [10, 20];
-
-var circle = svg_element.selectAll("circle")
+var circle = svg_element.append("circle")
+        .append("svg")
         .attr("cx",50)
         .attr("cy",50)
-        .attr("r",25)
-        .attr("transform","translate(10,400)");
+        .attr("r",25);
+        //.attr("transform","translate(10,400)");
 
 var circles = svg_element.selectAll("circles")
     .data(data1)
@@ -75,8 +78,14 @@ var circles = svg_element.selectAll("circles")
         .append("circles")
         .attr("cx",50)
         .attr("cy",50)
-        .attr("r",25);*/
+        .attr("fill","green")
+        .attr("r",25);
 
+        circle.transition()
+               .duration(1500)
+               .delay(2000)
+               .attr("cx",150);
+               */
     </script>
 
 </body>
