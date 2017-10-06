@@ -47,7 +47,6 @@ var svg_element = d3.select("body")
 .append("g")
 .attr("transform","translate(20,0)");
 //.call(axis);
-
 var bar =  svg_element.selectAll("rect")
     .data(array)
     .enter()
@@ -62,6 +61,9 @@ svg_element.append("g")
     .transition(1500)
     .duration(2000)
     .call(axis);
+
+var b = [20,50,40,70,6];
+document.write(b.sort(d3.descending));
 /*
 var data1[] = [10, 20];
 
