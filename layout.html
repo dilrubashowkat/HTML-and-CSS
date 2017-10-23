@@ -180,6 +180,14 @@ $("#p3").fadeIn(2500).fadeOut(2500);
 $("#mainTest").prepend("<h2> here comes a header after mainTest div element</h>");
 //$("div").remove();
 $("img").attr("src","image/shopping.jpg");
+
+/*$("img").load(function(){
+alert("the image has been replaced");
+});*/
+
+
+
+/*D3 starts here*/
 d3.select("p").text("test d3");
 
 d3.select("body").append("p").style("color","blue").text("test d3 again, its fun");
@@ -187,7 +195,7 @@ d3.select("body").append("p").style("color","blue").text("test d3 again, its fun
 //var array = [20,40,50];
 
  var svg_element = d3.select("body")
-.append("svg")
+ .append("svg")
 .attr("height",500)
 .attr("width",500);
 
