@@ -185,7 +185,12 @@ $("img").attr("src","image/shopping.jpg");
 alert("the image has been replaced");
 });*/
 
-
+$("li").each(function()
+{
+$(this).html("<li>go tigers</li>");
+$(this).html("<li>go dogs</li>");
+$(this).html("<li>go cats</li>");
+});
 
 /*D3 starts here*/
 d3.select("p").text("test d3");
