@@ -162,6 +162,7 @@ h1{
         $(document).ready(function(){
         $("button").click(function(){
         $("p:has(b)").hide();
+        $("#right").slideUp();
 //$("body div:nth-child(1)").hide();
 //$("li:empty").hide();
 //$("#para3").css("color","lime");
@@ -185,8 +186,7 @@ $("img").attr("src","image/shopping.jpg");
 alert("the image has been replaced");
 });*/
 
-$("li").each(function()
-{
+$("li").each(function(){
 $(this).html("<li>go tigers</li>");
 });
 
@@ -218,12 +218,15 @@ var line = svg_element.append("line")
     .attr("y1",100)
     .attr("x2",500)
     .attr("y2",500)
-    .attr("stroke","magenta")
+    .attr("stroke","magenta")$("#right").slideDown();
     .attr("stroke-width",3);
 
 
 
     });
+        //$("#testB").click(function()){
+          //  $("#right").slideDown();
+        //});
 
 
 });
