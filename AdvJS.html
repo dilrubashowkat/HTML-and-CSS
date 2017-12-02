@@ -9,8 +9,29 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
+<input type="button" value= "Show Array" onclick="displayArray();"/>
+<div id="resDiv" class="main1">
 
+</div>
+<script>
+    var ar1 = Array(3);
+        ar1[0] = "buddyTheCat";
+        ar1[1] = "56";
+        ar1[2] = "124.78";
+
+        function displayArray(){
+            var len = ar1.length;
+            var resDiv = document.getElementById("resDiv");
+            for (var i = 0; i < len; i++) {
+                var newDiv = document.createElement("div");
+                newDiv.innerHTML = "this is the value in Array" +"\t"+ ar1[i];
+                resDiv.appendChild(newDiv);
+            }
+        }
+
+</script>
 </body>
 </html>
