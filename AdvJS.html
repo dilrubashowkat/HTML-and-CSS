@@ -43,8 +43,16 @@
         function Display(){
             var N = array.length;
             document.getElementById("itemCount").innerHTML=N.toString();
+            var itemArrayDiv = document.getElementById("itemList");
+            while(itemArrayDiv.hasChildNodes()){
+                itemArrayDiv.removeChild(itemArrayDiv.lastChild);
+            }
+            for (var i = 0; i < N; i++) {
+                var newDiv = document.createElement("div");
+                newDiv.innerHTML= array[i];
+                itemArrayDiv.appendChild(newDiv);
 
-
+                     }
         }
 
 </script>
@@ -58,7 +66,7 @@
 
     <tr>
         <td>
-            <input id="buttnAdd" type="button" value="Add to the Array" onclick="addToArray();"/>
+            <input id="buttnAdd" style="size: 10px" type="button" value="Add to the Array" onclick="addToArray();"/>
         </td>
     </tr>
 </table>
