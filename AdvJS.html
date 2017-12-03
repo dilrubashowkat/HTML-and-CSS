@@ -13,14 +13,18 @@
 </head>
 <body>
 <input type="button" value= "Show Array" onclick="displayArray();"/>
+<input type="button" value= "Show Array1" onclick="displayArr(ar2);"/>
+
 <div id="resDiv" class="main1">
 
 </div>
+
 <script>
     var ar1 = Array(3);
         ar1[0] = "buddyTheCat";
         ar1[1] = "56";
         ar1[2] = "124.78";
+    var ar2 = Array("buddyTheCat2","56ab1","124.78bb");
 
         function displayArray(){
             var len = ar1.length;
@@ -30,6 +34,20 @@
                 newDiv.innerHTML = "this is the value in Array" +"\t"+ ar1[i];
                 resDiv.appendChild(newDiv);
             }
+        }
+
+        function displayArr(arg){
+            var n = arg.length;
+            var resDiv = document.getElementById("resDiv");
+            while(resDiv.hasChildNodes()){
+                resDiv.removeChild(resDiv.lastChild);
+            }
+            for (var i = 0; i < n; i++) {
+                var newDiv = document.createElement("div");
+                newDiv.innerHTML= array[i];
+                resDiv.appendChild(newDiv);
+
+                     }
         }
 
         var array = [];
@@ -55,6 +73,8 @@
                      }
         }
 
+
+
 </script>
 <table>
     <tr>
@@ -66,7 +86,7 @@
 
     <tr>
         <td>
-            <input id="buttnAdd" style="size: 10px" type="button" value="Add to the Array" onclick="addToArray();"/>
+            <input id="buttnAdd" type="button" value="Add to the Array" onclick="addToArray();"/>
         </td>
     </tr>
 </table>
