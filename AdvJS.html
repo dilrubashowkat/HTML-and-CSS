@@ -32,6 +32,43 @@
             }
         }
 
+        var array = [];
+
+        function addToArray()
+        {
+            var itemN = array.length;
+            array[itemN] = document.getElementById("txtVal").value;
+            Display();
+        }
+        function Display(){
+            var N = array.length;
+            document.getElementById("itemCount").innerHTML=N.toString();
+
+
+        }
+
 </script>
+<table>
+    <tr>
+        <td>Enter a value</td>
+        <td>
+            <input id="txtVal" type="text"/>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <input id="buttnAdd" type="button" value="Add to the Array" onclick="addToArray();"/>
+        </td>
+    </tr>
+</table>
+
+<div id="itemCount">
+
+</div>
+<br/>
+<div id="itemList">
+
+</div>
 </body>
 </html>
