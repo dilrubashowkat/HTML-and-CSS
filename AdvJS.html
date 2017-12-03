@@ -3,7 +3,7 @@
 <head>
 
     <title>to test advance JS</title>
-    <link rel="stylesheet" type="text/css" href="css/cssForNewpage.css">
+    <link rel="stylesheet" type="text/css" href="css/styleForLayout.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans">
@@ -12,8 +12,9 @@
 
 </head>
 <body>
-<input type="button" value= "Show Array" onclick="displayArray();"/>
-<input type="button" value= "Show Array1" onclick="displayArr(ar2);"/>
+<input class="button" type="button" value= "Show Array" onclick="displayArray();"/>
+<input class="button" type="button" value= "Show Array1" onclick="displayArr(ar2);"/>
+<input class="button" type="button" value= "Show Array2" onclick="displayArr(ar3);"/>
 
 <div id="resDiv" class="main1">
 
@@ -25,6 +26,7 @@
         ar1[1] = "56";
         ar1[2] = "124.78";
     var ar2 = Array("buddyTheCat2","56ab1","124.78bb");
+    var ar3 = Array("Cat3","ab3","bb3");
 
         function displayArray(){
             var len = ar1.length;
@@ -76,7 +78,7 @@
 
 
 </script>
-<table>
+<table class="main">
     <tr>
         <td>Enter a value</td>
         <td>
@@ -86,7 +88,7 @@
 
     <tr>
         <td>
-            <input id="buttnAdd" type="button" value="Add to the Array" onclick="addToArray();"/>
+            <input class="button" id="buttnAdd" type="button" value="Add to the Array" onclick="addToArray();"/>
         </td>
     </tr>
 </table>
