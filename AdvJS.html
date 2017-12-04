@@ -17,10 +17,12 @@
 <input class="button" type="button" value= "Show Array2" onclick="displayArr(ar3);"/>
 <input class="button" type="button" value= "Show Array3" onclick="displayArr1(emp,1);"/>
 <input class="button" type="button" value= "Show Array ar4" onclick="displayArr(ar4,1,1);"/>
+<input class="button" type="button" value= "Array push" onclick="displayArrPush(ar5);"/>
 
 <div id="resDiv" class="main1">
 
 </div>
+<div id="resDiv1" class="main">
 
 <script>
     var ar1 = Array(3);
@@ -29,8 +31,6 @@
         ar1[2] = "124.78";
     var ar2 = Array("buddyTheCat2","56ab1","124.78bb");
     var ar3 = Array("Cat3","ab3","bb3");
-
-
     var emp = [];
         emp["a"] = "ASD";
         emp["b"] = "ASD1";
@@ -44,6 +44,7 @@
         emp["d"] = "ASD23";
         emp["e"] = "ASD24";
     var ar4 = [emp,emp1,emp];
+    var ar5 = ["abc","def","ghi"];
 
         function displayArray(){
             var len = ar1.length;
@@ -52,6 +53,19 @@
                 var newDiv = document.createElement("div");
                 newDiv.innerHTML = "this is the value in Array" +"\t"+ ar1[i];
                 resDiv.appendChild(newDiv);
+            }
+        }
+
+        function displayArrPush(arg){
+            var len = arg.length;
+            var resDiv1 = document.getElementById("resDiv");
+            while(resDiv1.hasChildNodes()){
+                resDiv1.removeChild(resDiv.lastChild);
+            }
+            for (var i = 0; i < len; i++) {
+                var newDiv = document.createElement("div");
+                newDiv.innerHTML = "this is the value in Array" +"\t"+ arg[i];
+                resDiv1.appendChild(newDiv);
             }
         }
 
