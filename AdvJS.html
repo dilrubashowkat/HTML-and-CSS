@@ -15,7 +15,8 @@
 <input class="button" type="button" value= "Show Array" onclick="displayArray();"/>
 <input class="button" type="button" value= "Show Array1" onclick="displayArr(ar2);"/>
 <input class="button" type="button" value= "Show Array2" onclick="displayArr(ar3);"/>
-<input class="button" type="button" value= "Show Array3" onclick="displayArr(emp,1);"/>
+<input class="button" type="button" value= "Show Array3" onclick="displayArr1(emp,1);"/>
+<input class="button" type="button" value= "Show Array ar4" onclick="displayArr(ar4,1,1);"/>
 
 <div id="resDiv" class="main1">
 
@@ -29,13 +30,20 @@
     var ar2 = Array("buddyTheCat2","56ab1","124.78bb");
     var ar3 = Array("Cat3","ab3","bb3");
 
+
     var emp = [];
         emp["a"] = "ASD";
         emp["b"] = "ASD1";
         emp["c"] = "ASD2";
         emp["d"] = "ASD3";
         emp["e"] = "ASD4";
-
+    var emp1 = [];
+        emp["a"] = "ASD2";
+        emp["b"] = "ASD21";
+        emp["c"] = "ASD22";
+        emp["d"] = "ASD23";
+        emp["e"] = "ASD24";
+    var ar4 = [emp,emp1,emp];
 
         function displayArray(){
             var len = ar1.length;
@@ -61,7 +69,7 @@
                      }
         }
 
-function displayArr(arg,v){
+function displayArr1(arg,v){
             var n = arg.length;
             var temp = v;
             var resDiv = document.getElementById("resDiv");
@@ -73,6 +81,23 @@ function displayArr(arg,v){
                 newDiv.innerHTML= arg[key];
                 resDiv.appendChild(newDiv);
 
+                     }
+        }
+function displayArr(arg,v,v1){
+            var n = arg.length;
+            var temp = v;
+            var resDiv = document.getElementById("resDiv");
+            while(resDiv.hasChildNodes()){
+                resDiv.removeChild(resDiv.lastChild);
+            }
+            for (var i = 0; i < n;i++) {
+                var temp = arg[i];
+
+            for (var key in temp) {
+                var newDiv = document.createElement("div");
+                newDiv.innerHTML= temp[key];
+                resDiv.appendChild(newDiv);
+                                        }
                      }
         }
         var array = [];
