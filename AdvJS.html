@@ -17,13 +17,12 @@
 <input class="button" type="button" value= "Show Array2" onclick="displayArr(ar3);"/>
 <input class="button" type="button" value= "Show Array3" onclick="displayArr1(emp,1);"/>
 <input class="button" type="button" value= "Show Array ar4" onclick="displayArr(ar4,1,1);"/>
-<input class="button" type="button" value= "Array push" onclick="displayArrPush(ar5);"/>
 
 <div id="resDiv" class="main1">
 
 </div>
 <div id="resDiv1" class="main">
-
+</div>
 <script>
     var ar1 = Array(3);
         ar1[0] = "buddyTheCat";
@@ -56,18 +55,33 @@
             }
         }
 
-        function displayArrPush(arg){
-            var len = arg.length;
-            var resDiv1 = document.getElementById("resDiv");
+
+
+        function displayPush(){
+            var v = document.getElementById("txtVal1").value;
+            ar5.push(v);
+            display();
+
+        }
+        function displayPop(){
+            var v = document.getElementById("txtVal1").value;
+            ar5.pop();
+            display();
+        }
+
+        function display(){
+            var len = ar5.length;
+            var resDiv1 = document.getElementById("resDiv1");
             while(resDiv1.hasChildNodes()){
-                resDiv1.removeChild(resDiv.lastChild);
+                resDiv1.removeChild(resDiv1.lastChild);
             }
             for (var i = 0; i < len; i++) {
                 var newDiv = document.createElement("div");
-                newDiv.innerHTML = "this is the value in Array" +"\t"+ arg[i];
+                newDiv.innerHTML = "this is the value in Array" +"\t"+ ar5[i];
                 resDiv1.appendChild(newDiv);
             }
         }
+
 
         function displayArr(arg){
             var n = arg.length;
@@ -153,6 +167,24 @@ function displayArr(arg,v,v1){
             <input class="button" id="buttnAdd" type="button" value="Add to the Array" onclick="addToArray();"/>
         </td>
     </tr>
+
+
+    <tr>
+        <td>Enter another value to display, push, pop, shift, unshift: </td>
+        <td>
+            <input id="txtVal1" type="text"/>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <input class="button" id="buttnAdd1" type="button" value="Push to the array: ar5" onclick="displayPush();"/>
+        </td>
+        <td>
+            <input class="button" id="buttnAdd1" type="button" value="Pop from the Array: ar5" onclick="displayPop();"/>
+        </td>
+
+    </tr>
 </table>
 
 <div id="itemCount">
@@ -162,5 +194,6 @@ function displayArr(arg,v,v1){
 <div id="itemList">
 
 </div>
+
 </body>
 </html>
