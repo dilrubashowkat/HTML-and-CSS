@@ -19,10 +19,11 @@
 <input class="button" type="button" value= "Show Array ar4" onclick="displayArr(ar4,1,1);"/>
 
 <div id="resDiv" class="main1">
-
 </div>
+
 <div id="resDiv1" class="main">
 </div>
+
 <script>
     var ar1 = Array(3);
         ar1[0] = "buddyTheCat";
@@ -66,6 +67,18 @@
         function displayPop(){
             var v = document.getElementById("txtVal1").value;
             ar5.pop();
+            display();
+        }
+
+         function displayShift(){
+            var v = document.getElementById("txtVal1").value;
+            ar5.shift();
+            display();
+        }
+
+        function displayUnShift(){
+            var v = document.getElementById("txtVal1").value;
+            ar5.unshift();
             display();
         }
 
@@ -183,16 +196,20 @@ function displayArr(arg,v,v1){
         <td>
             <input class="button" id="buttnAdd1" type="button" value="Pop from the Array: ar5" onclick="displayPop();"/>
         </td>
-
+        <td>
+            <input class="button" id="buttnAdd1" type="button" value="Shift from the Array: ar5" onclick="displayShift();"/>
+        </td>
+        <td>
+            <input class="button" id="buttnAdd1" type="button" value="UnShift from the Array: ar5" onclick="displayUnShift();"/>
+        </td>
     </tr>
 </table>
 
 <div id="itemCount">
-
 </div>
+
 <br/>
 <div id="itemList">
-
 </div>
 
 </body>
