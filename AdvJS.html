@@ -164,19 +164,15 @@ function displayArr(arg,v,v1){
                      }
         }
 var do1 = function(a,b){
-    return a*b;
+    alert(a*b);
 }
 
-document.write("multiplying 3 and 57 is "+do1(3,57));
 
 var do2 = function(a,b){
-return a*b;
+return(a*b);
 }
 var f = do2;
-
 document.write("multiplying 3 and 57 is "+f(3,57));
-
-
 
 </script>
 <table class="main">
@@ -216,6 +212,7 @@ document.write("multiplying 3 and 57 is "+f(3,57));
         </td>
     </tr>
 </table>
+<input class="button" type="button" value= "multiplying 3 and 57 is" onclick="do1(3,57);"/>
 
 <div id="itemCount">
 </div>
