@@ -182,7 +182,9 @@ var do3 = function(){
     }
 alert(s);
 }
-
+var do4 = function(a,b){
+return(a-b);
+}
 </script>
 <table class="main">
     <tr>
@@ -221,8 +223,9 @@ alert(s);
         </td>
     </tr>
 </table>
-<input class="button" type="button" value= "multiplying 3 and 57 is" onclick="do1(3,57);"/>
-<input class="button" type="button" value= "sum of the arguments" onclick="do3(3,57,56,89,900,7890);"/>
+<input id="button1" type="button" value= "multiplying 3 and 57 is" onclick="do1(3,57);"/>
+<input id="button1" type="button" value= "sum of the arguments" onclick="do3(3,57,56,89,900,7890);"/>
+<input id="button1" type="button" value= "difference of the arguments" onclick="alert(do4(3,57));"/>
 
 <div id="itemCount">
 </div>

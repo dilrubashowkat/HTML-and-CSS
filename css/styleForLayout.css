@@ -98,6 +98,25 @@ margin: 10px;
 box-sizing: border-box;
 color: #607D8B;
 }
+#button1 {
+background: lightgreen;
+border: 3px solid red;
+border-radius: 5px;
+font:800 13px sans-serif;
+height: 15px;
+line-height: 28px;
+padding: 20px;
+text-align: center;
+margin: 10px;
+box-sizing: border-box;
+color: #607D8B;
+}
+
+#button1:hover{
+color: magenta;
+border:3px solid darkturquoise;
+background-color: lightyellow;
+}
 .button:hover{
 color: blue;
 border:2px solid darkturquoise;
