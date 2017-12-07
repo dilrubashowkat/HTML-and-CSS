@@ -1,5 +1,10 @@
 .body{
     margin:0px;
+    color: #9c27b0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #00BCD4;
 }
 #container{
     width: 1200px;
@@ -41,7 +46,7 @@ font-family: fantasy;
     font-size: x-large;
 }
 .main{
-    background-color: lightblue;
+    background-color: #E91E63;
     padding: 20px;
     border-radius: 5px;
     font-size: 110%;
@@ -50,6 +55,7 @@ font-family: fantasy;
      margin-left: 10px;
      margin-bottom: 10px;
 }
+
 .sideright{
 background-color: lightgrey;
 padding: 20px;
@@ -87,7 +93,7 @@ font-size: 105%;
 }
 .button {
 background: #f1b2f2;
-border: 2px solid #9E9E9E;
+border: 2px solid yellow;
 border-radius: 5px;
 font:800 13px sans-serif;
 height: 15px;
@@ -100,7 +106,7 @@ color: #607D8B;
 }
 #button1 {
 background: lightgreen;
-border: 3px solid red;
+border: 3px solid pink;
 border-radius: 5px;
 font:800 13px sans-serif;
 height: 15px;
