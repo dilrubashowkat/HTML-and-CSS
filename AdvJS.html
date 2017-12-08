@@ -209,6 +209,15 @@ function do5(a,b,vmu){
 vmu(a,b);
 }
 
+
+function do7(a,b){
+
+function JSd(){return (a+b).toString()+"nested1";}
+function JSm(){return (a*b).toString()+"nested2";}
+
+    alert(JSd(a,b));
+    alert(JSm(a,b));
+}
 </script>
 <table class="main">
     <tr>
@@ -251,7 +260,7 @@ vmu(a,b);
 <input id="button1" type="button" value= "sum of the arguments" onclick="do3(3,57,56,89,900,7890);"/>
 <input id="button1" type="button" value= "difference of the arguments" onclick="alert(do4(3,57));"/>
 <input id="button1" type="button" value= "nested function: sum and multiplying" onclick="do5(3,57,do6);"/>
-<!--<input id="button1" type="button" value= "nested function: sum and multiplying" onclick="do7(3,57,do6);"/>-->
+<input id="button1" type="button" value= "nested function: calculator" onclick="do7(9,3);"/>
 
 <div id="itemCount">
 </div>
