@@ -199,15 +199,15 @@ alert(s);
 var do4 = function(a,b){
 return(a-b);
 }
-/*function do6(m,n)
+function do6(m,n)
 {
-    alert("diff: "+(m-n).toString());
+    alert("diff: "+(m*n).toString());
 
 }
-var function do5(a,b,v){
+function do5(a,b,vmu){
     alert("sum: "+(a+b).toString());
-v(a,b);
-}*/
+vmu(a,b);
+}
 
 </script>
 <table class="main">
@@ -250,7 +250,8 @@ v(a,b);
 <input id="button1" type="button" value= "multiplying 3 and 57 is" onclick="do1(3,57);"/>
 <input id="button1" type="button" value= "sum of the arguments" onclick="do3(3,57,56,89,900,7890);"/>
 <input id="button1" type="button" value= "difference of the arguments" onclick="alert(do4(3,57));"/>
-<!--<input id="button1" type="button" value= "nested function: sum and difference" onclick="do5(3,57,do6);"/>-->
+<input id="button1" type="button" value= "nested function: sum and multiplying" onclick="do5(3,57,do6);"/>
+<!--<input id="button1" type="button" value= "nested function: sum and multiplying" onclick="do7(3,57,do6);"/>-->
 
 <div id="itemCount">
 </div>
