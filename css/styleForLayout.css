@@ -106,7 +106,7 @@ color: #607D8B;
 }
 #button1 {
 background: lightgreen;
-border: 3px solid pink;
+border: 3px solid magenta;
 border-radius: 5px;
 font:800 13px sans-serif;
 height: 15px;
@@ -120,11 +120,12 @@ color: #607D8B;
 
 #button1:hover{
 color: magenta;
-border:3px solid darkturquoise;
+border:3px solid orange;
 background-color: lightyellow;
 }
 .button:hover{
 color: blue;
-border:2px solid darkturquoise;
+border:3px solid white;
 background-color: lightpink;
 }
+//darkturquoise
