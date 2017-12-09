@@ -218,6 +218,15 @@ function JSm(){return (a*b).toString()+"nested2";}
     alert(JSd(a,b));
     alert(JSm(a,b));
 }
+
+function do8(a,b){
+
+function JSd(){return "inner1";}
+ do8 = function(a,b){return (a*b).toString()+"inner to outer";}
+
+    alert(JSd());
+    alert(do8(5,6));
+}
 </script>
 <table class="main">
     <tr>
@@ -261,6 +270,7 @@ function JSm(){return (a*b).toString()+"nested2";}
 <input id="button1" type="button" value= "difference of the arguments" onclick="alert(do4(3,57));"/>
 <input id="button1" type="button" value= "nested function: sum and multiplying" onclick="do5(3,57,do6);"/>
 <input id="button1" type="button" value= "nested function: calculator" onclick="do7(9,3);"/>
+<input id="button1" type="button" value= "inner function to outer" onclick="do8(9,3);"/>
 
 <div id="itemCount">
 </div>
