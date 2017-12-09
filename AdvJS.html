@@ -227,6 +227,14 @@ function JSd(){return "inner1";}
     alert(JSd());
     alert(do8(5,6));
 }
+
+function attachEvent(){
+    var btnDum = document.getElementById("buttonDummy");
+    btnDum.onclick = function(){
+        alert("I am working:1");
+    }
+    btnDum.value="I am working:2";
+}
 </script>
 <table class="main">
     <tr>
@@ -271,6 +279,8 @@ function JSd(){return "inner1";}
 <input id="button1" type="button" value= "nested function: sum and multiplying" onclick="do5(3,57,do6);"/>
 <input id="button1" type="button" value= "nested function: calculator" onclick="do7(9,3);"/>
 <input id="button1" type="button" value= "inner function to outer" onclick="do8(9,3);"/>
+<input id="buttonDummy" type="button" value= "click to activate the following"/>
+<input id="buttonDo" type="button" value= "Event attached" onclick="attachEvent();"/>
 
 <div id="itemCount">
 </div>
