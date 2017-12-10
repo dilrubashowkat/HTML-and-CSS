@@ -53,6 +53,7 @@
          final + = ary[i] + "=" + infoEmp[ary[i]] + "\n";
      }
     alert(final);*/
+
     function Emp(a,b,c,d){
         this.a=a;
         this.b=b;
@@ -65,11 +66,24 @@
     alert(emp.a.toString()+","+emp.b+","+emp.c.toString()+","+emp.d.toString());
 
     function showEmp(obj){
-with(obj){
-    alert(a.toString()+","+b+","+c.toString()+","+d.toString());
-        }
-        }
+    with(obj){
+        alert(a.toString()+","+b+","+c.toString()+","+d.toString());
+            }
+                        }
     showEmp(emp1);
+
+   /* function calSalary(){
+        return this.sal*12;
+    }
+
+    var eName = {
+        name:"jag",
+        age:50,
+        sal:5000,
+        annSal:calSalary()
+    };
+
+    alert(eName.name + "earns" +eName.calSalary());*/
 
     var ar1 = Array(3);
         ar1[0] = "buddyTheCat";
