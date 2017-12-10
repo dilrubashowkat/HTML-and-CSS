@@ -106,6 +106,19 @@
         var obj=stuList[i];
         alert(obj.name + " " +obj.gpa);
     }
+
+    var identity ={
+        id:"01",
+        value:"A",
+        color:"Pink",
+        venue:{
+            city:"corvallis",
+            zip:97333,
+            country:"USA"
+        }
+        };
+        alert("nested object " + identity.venue.city+","+identity.venue.zip.toString()+","+identity.venue.country)
+
     var ar1 = Array(3);
         ar1[0] = "buddyTheCat";
         ar1[1] = "56";
