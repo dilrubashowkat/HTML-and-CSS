@@ -80,11 +80,32 @@
         name:"jag",
         age:50,
         sal:5000,
-        annSal:calSalary()
+        annSal:calSalar(){
+        return this.sal*12;
+
+        }
     };
 
-    alert(eName.name + "earns" +eName.calSalary());*/
+    alert(eName.name + "earns" +eName.annSal());*/
 
+    var student = function(name, gpa){
+        this.name = name;
+        this.gpa = gpa;
+        this.getGpa =function(){
+            return gpa*5;
+        }
+    }
+
+    var stuList = [];
+    stuList[0] = new student("mark",4.5);
+    stuList[1] = new student("uras",3.5);
+    stuList[2] = new student("vennei",2.5);
+    stuList[3] = new student("rester",4.5);
+
+    for (var i = 0; i < stuList.length; i++) {
+        var obj=stuList[i];
+        alert(obj.name + " " +obj.gpa);
+    }
     var ar1 = Array(3);
         ar1[0] = "buddyTheCat";
         ar1[1] = "56";
