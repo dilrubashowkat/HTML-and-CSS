@@ -45,7 +45,7 @@
     infoEmp.age = 34;
     infoEmp.city = "Bali";
     infoEmp.country = "Indonesia";
-     alert(infoEmp.name+"," +infoEmp.age.toString()+ ","+infoEmp.city+ "," + infoEmp.country);
+    alert(infoEmp.name+"," +infoEmp.age.toString()+ ","+infoEmp.city+ "," + infoEmp.country);
 
     /* var ary = Object.key(infoEmp);
      var final = "";
@@ -53,6 +53,16 @@
          final + = ary[i] + "=" + infoEmp[ary[i]] + "\n";
      }
     alert(final);*/
+    function Emp(a,b,c,d){
+        this.a1=a;
+        this.b1=b;
+        this.c1=c;
+        this.d1=d;
+    }
+    var emp = new Emp(1001,"sunday",340,45);
+
+    alert(emp.a1.toString()+","+emp.b1+","+emp.c1.toString()+","+emp.d1.toString());
+
     var ar1 = Array(3);
         ar1[0] = "buddyTheCat";
         ar1[1] = "56";
