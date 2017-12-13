@@ -6,11 +6,10 @@ body{
     font-family: Areal,sans-serif;
     font-size: 13px;
 }
-h1 #lg{
+h1{
     width: 268px;
     height: 95px;
-    background-image: url(image/google.png);
-    background-image: 100%;
+    background-size: 100%;
     text-indent: -9999px;
     margin:0 auto;
 }
@@ -18,5 +17,4 @@ h1 #lg{
     width: 580px;
     margin:0 auto;
     text-align: center;
-
 }
