@@ -18,3 +18,9 @@ h1{
     margin:0 auto;
     text-align: center;
 }
+input[type="search"]{
+    width: 560px;
+    height: 25px;
+    padding:7px;
+    display: block;
+}
