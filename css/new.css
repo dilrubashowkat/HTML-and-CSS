@@ -1,0 +1,32 @@
+#Box{
+background: #80deea;
+height: 200px;
+width: 200px;
+margin:40px auto;
+padding: 40px;
+border-radius: 5px;
+box-sizing: border-box;
+}
+#Box1{
+background: #81d4fa;
+height: 200px;
+width: 200px;
+margin:40px auto;
+padding: 40px;
+box-sizing: border-box;
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px;
+border-top-right-radius: 100px;
+}
+#Box2{
+background: #90caf9;
+height: 200px;
+width: 200px;
+margin:40px auto;
+padding: 40px;
+box-sizing: border-box;
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px;
+border-top-right-radius: 100px;
+-webkit-border-radius:100px;
+}
