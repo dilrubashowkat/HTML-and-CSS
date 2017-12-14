@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>reaction time test</title>
+    <!--<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+            var start = null;
+            var end = null;
+            var pressed = null;
+            var times = [];
+            var minSeconds = 2;
+            var maxSeconds = 7;
+
+            var addTime = function(time) {
+                // don't add negative times because that indicates that
+                // they pushed the button too early
+                if (time > 0) {
+                    times.push(time/1000);
+                }
+                if (times.length > 0) {
+                    $('.output').html('Reflex Delay (Your Time - Optimal Time):<br /><br />' +
+                            times.join(' seconds <br />') + ' seconds');
+                }
+
+                // Reset everything
+                start = null;
+                end = null;
+                pressed = null;
+                $('.box').removeClass('black');
+                $('#button').text('Start');
+                // TODO: enable button
+                $('#button').removeAttr('disabled');
+            };
+
+            var timer = null;
+
+            $('#button').on('mousedown', function () {
+                if (!start) {
+                    start = new Date().getTime();
+                    $('#button').text('Stop');
+                    var delaySeconds = (Math.random()*(maxSeconds - minSeconds) + minSeconds) * 1000;
+                    console.log('waiting # of seconds: ' + (Math.random()*(maxSeconds - minSeconds) + minSeconds));
+                    timer = window.setTimeout(function () {
+                        $('.box').addClass('black');
+                        end = new Date().getTime();
+
+                        if (pressed) {
+                            addTime(pressed - end);
+                        }
+                    },  delaySeconds);
+                } else {
+                    pressed = new Date().getTime();
+
+                    if (end) {
+                        addTime(pressed - end);
+                    } else {
+                        // disable the button and wait for the timeout
+                        $('#button').attr('disabled', 'disabled');
+                        $('#button').text('Wait for the color to change');
+                    }
+                }
+            });
+        })
+
+</script>
+
+</head>
+
+<body style="overflow:auto; margin:0; padding:0;position:relative" data-gr-c-s-loaded="true">
+        <style type="text/css" media="screen">
+            body {
+                background: aqua;
+            }
+            .box {
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 50%;
+                height: 100%;
+                background-color: white;
+                border: 2px solid black;
+                box-sizing: border-box;
+            }
+
+            .black {
+                background-color: black;
+            }
+
+            .black .btn {
+                color: white;
+            }
+
+            #button {
+                width: 100%;
+                height: 100%;
+                font-size: 4em;
+            }
+
+            #instructions {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 50%;
+                height: 30%;
+                text-align: center;
+            }
+
+            .btn {
+              .border-radius(0px);
+              font-weight:bold;
+
+                border-color: #B5B5B5;
+                background-color: none;
+                background: none;
+            }
+
+            .output {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 50%;
+                height: 50%;
+
+                text-align: center;
+            }
+        </style>
+
+        <div id="instructions">
+            <h2>Test Your Reaction Time!</h2>
+            <strong>Instructions</strong>
+            <br><br>
+            Click the button to start.
+            <br>
+            When the box turns black, click the button again.
+        </div>
+
+        <div id="instructions">
+            <h2>Test Your Reaction Time!</h2>
+            <strong>Instructions</strong>
+            <br><br>
+            Click the button to start.
+            <br>
+            When the box turns black, click the button again.
+        </div>
+
+        <div class="box">
+            <div id="buttonContainer">
+                <div class="centerer">
+                    <button class="btn" id="button">Start</button>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
