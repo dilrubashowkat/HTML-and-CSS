@@ -30,3 +30,33 @@ border-bottom-right-radius: 100px;
 border-top-right-radius: 100px;
 -webkit-border-radius:100px;
 }
+#colors{
+background: rgba(0,0,240,0.5);
+color: white;
+}
+#container{
+width: 900px;
+height: 900px;
+margin: 0 auto;
+box-sizing: border-box;
+padding: 40px;
+background: rgba(255,255,255,0.3);
+}
+#colGradient{
+background: linear-gradient(to bottom right, #e91e63,lightblue);
+width: 400px;
+height: 400px;
+margin: 0 auto;
+box-sizing: border-box;
+padding: 40px;
+border-radius: 5px;
+}
+#colGradient1{
+background: radial-gradient(pink,#00bcd4);
+width: 400px;
+height: 400px;
+margin: 0 auto;
+box-sizing: border-box;
+padding: 40px;
+border-radius: 5px;
+}
