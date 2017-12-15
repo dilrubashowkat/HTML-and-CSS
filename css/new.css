@@ -64,3 +64,9 @@ border-radius: 5px;
     text-align: center;
 text-shadow: 2px 2px pink;
 }
+
+#thrCol{
+    -webkit-column-count:3;
+    column-count: 3;
+    -moz-column-count:3;
+}
