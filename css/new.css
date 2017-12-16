@@ -105,3 +105,20 @@ column-rule-color: #ffeb3b;
 -moz-column-rule-width:2px;
 column-rule-width: 2px;
 }
+div.background {
+    background: url(image/1.jpg) repeat;
+    border: 2px solid black;
+}
+div.transbox {
+     border: 2px solid black;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
