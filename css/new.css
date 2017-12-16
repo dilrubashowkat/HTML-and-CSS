@@ -70,6 +70,15 @@ box-sizing: border-box;
 padding: 40px;
 border-radius: 5px;
 }
+#colGradient3{
+background: radial-gradient(yellow,#ce93d8,#ff8a65);
+width: 900px;
+height: 900px;
+margin: 0 auto;
+box-sizing: border-box;
+padding: 40px;
+border-radius: 5px;
+}
 #colShadow{
     text-align: center;
 text-shadow: 2px 2px pink;
@@ -121,4 +130,23 @@ div.transbox p {
     margin: 5%;
     font-weight: bold;
     color: #000000;
+}
+#anime{
+background: aquamarine;
+height: 200px;
+width: 200px;
+margin:40px auto;
+padding: 40px;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+@keyframes anime{
+    from{background-color: aquamarine;}
+    to{background-color: lightpink;}
+}
+
+#colGradient3 #anime{
+    animation-name: anime;
+    animation-duration: 5s;
 }
