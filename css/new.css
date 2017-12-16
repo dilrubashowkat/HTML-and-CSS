@@ -60,13 +60,48 @@ box-sizing: border-box;
 padding: 40px;
 border-radius: 5px;
 }
+
+#colGradient2{
+background: radial-gradient(magenta,#00bcd4,#8bc34a);
+width: 900px;
+height: 900px;
+margin: 0 auto;
+box-sizing: border-box;
+padding: 40px;
+border-radius: 5px;
+}
 #colShadow{
     text-align: center;
 text-shadow: 2px 2px pink;
 }
-
+#fonts{
+    font-family: "Times New Roman", Times, serif;
+     font-style: oblique;
+ opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+#fonts:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
 #thrCol{
     -webkit-column-count:3;
     column-count: 3;
     -moz-column-count:3;
+
+-webkit-column-gap:5px;
+-moz-column-gap:5px;
+column-gap: 5px;
+
+-webkit-column-rule-style:solid;
+-moz-column-rule-style:solid;
+column-rule-style: solid;
+
+-webkit-column-rule-color:#ffeb3b;
+-moz-column-rule-color:#ffeb3b;
+column-rule-color: #ffeb3b;
+
+-webkit-column-rule-width:2px;
+-moz-column-rule-width:2px;
+column-rule-width: 2px;
 }
