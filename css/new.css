@@ -141,12 +141,33 @@ border-radius: 5px;
 box-sizing: border-box;
 }
 
+#anime1{
+background: aqua;
+height: 150px;
+width: 200px;
+margin:40px auto;
+padding: 40px;
+border-radius: 5px;
+box-sizing: border-box;
+}
+/*@keyframes anime1{
+    from{border-radius:5px;}
+    to{border-radius: 50px;}
+}
+#colGradient3 #anime1{
+    animation-name: anime1;
+    animation-duration: 7s;
+}*/
 @keyframes anime{
-    from{background-color: aquamarine;}
-    to{background-color: lightpink;}
+    from{background-color: aquamarine;border-radius:5px;top:0;left:0;}
+    to{background-color: lightpink;border-radius: 50px;top:100px;left:100px;}
 }
 
 #colGradient3 #anime{
     animation-name: anime;
     animation-duration: 7s;
+    animation-delay: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    position: relative;
 }
