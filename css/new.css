@@ -143,12 +143,20 @@ box-sizing: border-box;
 
 #anime1{
 background: aqua;
-height: 150px;
-width: 200px;
+height: 50px;
+width: 50px;
 margin:40px auto;
 padding: 40px;
 border-radius: 5px;
 box-sizing: border-box;
+}
+#anime1:hover{
+background: lightgreen;
+height: 200px;
+width: 200px;
+/*transition: all 4s;*/
+transition: width 2s, height 3s, background 20s;
+transition-timing-function: ease-in;
 }
 /*@keyframes anime1{
     from{border-radius:5px;}
@@ -170,4 +178,6 @@ box-sizing: border-box;
     animation-iteration-count: 2;
     animation-direction: alternate;
     position: relative;
+
+    /*animation: anime 10s linear 4s 3; shorthand*/
 }
