@@ -181,3 +181,14 @@ transition-timing-function: ease-in;
 
     /*animation: anime 10s linear 4s 3; shorthand*/
 }
+.button{
+display: inline-block;
+background: yellow;
+background: linear-gradient(pink,blue);
+border-radius: 2px;
+border:solid 2px yellow;
+color: white;
+padding: 10px 20px;
+margin:10px;
+text-decoration: none;
+}
