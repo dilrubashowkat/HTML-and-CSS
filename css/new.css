@@ -184,11 +184,23 @@ transition-timing-function: ease-in;
 .button{
 display: inline-block;
 background: yellow;
-background: linear-gradient(pink,blue);
+background: linear-gradient(magenta,aqua);
 border-radius: 2px;
 border:solid 2px yellow;
 color: white;
 padding: 10px 20px;
 margin:10px;
 text-decoration: none;
+text-shadow: 1px 2px rgba(0,255,0,0.5);
+}
+.button:hover{
+border-color: lightblue;
+text-shadow: 1px 2px rgba(255,0,255,0.4);
+background: aqua;
+background: linear-gradient(yellow,lightpink);
+
+}
+.button:active{
+position: relative;
+top: 1px;
 }
