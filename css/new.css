@@ -43,7 +43,7 @@ padding: 40px;
 background: rgba(255,255,255,0.3);
 }
 #colGradient{
-background: linear-gradient(to bottom right, #e91e63,lightblue);
+background: linear-gradient(to bottom right, #FFF59D,#80DEEA);
 width: 200px;
 height: 200px;
 margin: 0 auto;
@@ -184,7 +184,7 @@ transition-timing-function: ease-in;
 .button{
 display: inline-block;
 background: yellow;
-background: linear-gradient(magenta,aqua);
+background: linear-gradient(lightpink,aqua);
 border-radius: 2px;
 border:solid 2px yellow;
 color: white;
@@ -194,10 +194,10 @@ text-decoration: none;
 text-shadow: 1px 2px rgba(0,255,0,0.5);
 }
 .button:hover{
-border-color: lightblue;
+border-color: aquamarine;
 text-shadow: 1px 2px rgba(255,0,255,0.4);
 background: aqua;
-background: linear-gradient(yellow,lightpink);
+background: linear-gradient(lightyellow,pink);
 
 }
 .button:active{
