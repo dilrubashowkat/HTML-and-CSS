@@ -236,10 +236,20 @@ background:-moz-radial-gradient(#f5c313,#ec7e08);
 background:-o-radial-gradient(#f5c313,#ec7e08);
 background:radial-gradient(#f5c313,#ec7e08);
 
+box-shadow: 0 0 50px #f5c91a;
+-webkit-box-shadow: 0 0 50px #f5c91a;
+-moz-box-shadow: 0 0 50px #f5c91a;
+
 }
 #moonOrb{
 
 }
 #moon{
 
+}
+#earthOrb{
+border: solid 1px red;
+height: 800px;
+width: 1000px;
+z-index: 4;
 }
