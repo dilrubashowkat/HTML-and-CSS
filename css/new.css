@@ -34,6 +34,11 @@ border-top-right-radius: 100px;
 background: rgba(0,0,240,0.5);
 color: white;
 }
+h1, h3{
+background-color: lightyellow;
+color: blue;
+text-align: center;
+}
 #container{
 width: 900px;
 height: 900px;
@@ -265,4 +270,7 @@ border-radius: 100%;
     background-color: #26c6da;
     color: #9C27B0;
     padding: 20px;
+}
+.gr1{
+    background-color: #fff59d;
 }
