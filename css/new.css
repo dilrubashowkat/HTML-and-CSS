@@ -267,10 +267,13 @@ border-radius: 100%;
 -webkit-border-radius:100%;
 }
 .gr{
-    background-color: #26c6da;
+    background-color: #fff9c4;
     color: #9C27B0;
     padding: 20px;
 }
 .gr1{
-    background-color: #fff59d;
+    background-color: #bcf6ff;
+}
+.gr2{
+    background-color: lightpink;
 }
